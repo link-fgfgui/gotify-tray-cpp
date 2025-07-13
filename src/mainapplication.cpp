@@ -83,8 +83,8 @@ void MainApplication::initComponents()
 
 void MainApplication::initGui()
 {
-    mainWindow->show();
-    QTimer::singleShot(0, this, [this]{mainWindow->hide();});
+    // mainWindow->show();
+    // QTimer::singleShot(0, this, [this]{mainWindow->hide();});
 
     tray->setError();
     tray->show();
